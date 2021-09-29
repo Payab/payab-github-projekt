@@ -24,3 +24,12 @@ for (let t = 0; t < years.length; t++) {
   ages.push(2021 - years[t]);
 }
 console.log(ages);
+
+try 
+{
+    //Put your codes to test here
+}
+catch (Exception error)
+{
+    System.out.println (error.Message);
+}
