@@ -15,3 +15,12 @@ lightBtn.addEventListener ("Click", function (){
         knappa = true;
     }
 })
+
+const years = [1999, 2007, 2013, 1969, 2020];
+
+const ages = [];
+for (let t = 0; t < years.length; t++) {
+  if (t === 2) continue;
+  ages.push(2021 - years[t]);
+}
+console.log(ages);
