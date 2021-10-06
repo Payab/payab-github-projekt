@@ -6,9 +6,9 @@ button.addEventListener("click", function(){
 Let knappa = true;
 const lightBtn = document.querySelector (".light-Btn");
 lightBtn.addEventListener ("Click", function (){
-    if (knapp === tru){
+    if (knappa === tru){
         document.body.dtyle.backgroundColor = "Pink"
-        knapp = false;
+        knappa = false;
     }
     else{
         document.body.style.backgroundColor = "White"
