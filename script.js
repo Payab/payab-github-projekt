@@ -3,7 +3,7 @@ button.addEventListener("click", function(){
     console.log("Hello world")
 })
 
-Let knappa = true;
+let knappa = true;
 const lightBtn = document.querySelector (".light-Btn");
 lightBtn.addEventListener ("Click", function (){
     if (knappa === tru){
@@ -27,9 +27,10 @@ console.log(ages);
 
 try 
 {
-    //Put your codes to test here
+ let size = prompt('10');
+const arr = new Array();
+arr.length = size;
 }
-catch (Exception error)
-{
-    System.out.println (error.Message);
+catch(error){
+    alert ('Pleas insert the integer');
 }
