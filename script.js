@@ -1,11 +1,11 @@
 const button = document.querySelector(".btn-search");
-button.addEventListener("click", function(){
+button.addEventListener("click", function() {
     console.log("Hello world")
 })
 
 let knappa = true;
-const lightBtn = document.querySelector (".light-Btn");
-lightBtn.addEventListener ("Click", function (){
+const lightBtn = document.querySelector(".light-Btn");
+lightBtn.addEventListener ("Click", function(){
     if (knappa === tru){
         document.body.style.backgroundColor = "Pink"
         knappa = false;
